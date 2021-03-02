@@ -2,9 +2,9 @@
 Este proyecto fue generado con [Visual Studio 2019]
 
 ## Comenzando 🚀
-Utilice [npm](https://docs.npmjs.com/cli/v6/commands/npm-install) para la instalacion.
+Utilice [netCore](https://dotnet.microsoft.com/download) para la instalacion.
 
-Utilice [mongoDB](https://docs.mongodb.com/guides/) para la DataBase.
+Utilice [SqlServer](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) para la DataBase.
 
 ### Pre-requisitos 📋
 ```
