@@ -1,14 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Music.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Music.Data.Configuration
+﻿namespace Music.Data.Configuration
 {
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using Music.Models;
+
+    /// <summary>
+    /// Defines the <see cref="OrdenConfiguration" />.
+    /// </summary>
     public class OrdenConfiguration : IEntityTypeConfiguration<Orden>
     {
+        /// <summary>
+        /// The Configure.
+        /// </summary>
+        /// <param name="entity">The entity<see cref="EntityTypeBuilder{Orden}"/>.</param>
         public void Configure(EntityTypeBuilder<Orden> entity)
         {
             entity.ToTable("Orden", "tienda");
