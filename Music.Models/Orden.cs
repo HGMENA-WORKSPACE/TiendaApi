@@ -14,7 +14,7 @@
         /// </summary>
         public Orden()
         {
-            DetalleOrdens = new HashSet<DetalleOrden>();
+            DetallesOrden = new HashSet<DetalleOrden>();
         }
 
         /// <summary>
@@ -58,8 +58,8 @@
         public virtual Usuario Usuario { get; set; }
 
         /// <summary>
-        /// Gets or sets the DetalleOrdens.
+        /// Gets or sets the DetallesOrden.
         /// </summary>
-        public virtual ICollection<DetalleOrden> DetalleOrdens { get; set; }
+        public virtual ICollection<DetalleOrden> DetallesOrden { get; set; }
     }
 }
