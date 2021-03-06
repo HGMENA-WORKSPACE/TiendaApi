@@ -28,7 +28,7 @@
             entity.Property(e => e.Total).HasColumnType("decimal(18, 2)");
 
             entity.HasOne(d => d.Orden)
-                .WithMany(p => p.DetalleOrdens)
+                .WithMany(p => p.DetallesOrden)
                 .HasForeignKey(d => d.OrdenId);
 
             entity.HasOne(d => d.Producto)
